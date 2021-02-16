@@ -1,7 +1,20 @@
 #include "sqlite3.h"
 #include <iostream>
+#include <stdlib.h>
+#include <cstdio>
+#include <ctime>
 
 using namespace std;
+
+static int callback(void *data, int argc, char**argv, char **azColName){
+    int i;
+//    cout << (const char*) data << endl;
+
+    for(i =0; i<argc; i++) {
+        cout << azColName[i] << ":[ " << argv[i] << " ]" << endl;
+    }
+    return 0;
+}
 
 int main() {
     sqlite3* db;
@@ -15,27 +28,31 @@ int main() {
 
     char* command = "CREATE TABLE IF NOT EXISTS students ( id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, fio TEXT NOT NULL);";
 
-    char* insert = "INSERT INTO students(fio) VALUES (\"MAXIM\")";
+    char* insert = "INSERT INTO students(fio) VALUES (\"SENYA\")";
     char* select = "SELECT * FROM students";
 
     char* err = 0;
+    cout << fixed;
+    cout.precision(15);
+    clock_t start;
+    double duration;
+    start = clock();
 
     if(sqlite3_exec(db, command, 0, 0, &err)) cout << "error:" << err << endl;
+    duration = (clock() - start) / (double) CLOCKS_PER_SEC;
+    cout << "Operation: _" << command << "_ time = [ " << duration << " sec ]" << endl;
 
+    start = clock();
     if(sqlite3_exec(db, insert, 0, 0, &err)) cout << "error:" << err << endl;
+    duration = (clock() - start) / (double) CLOCKS_PER_SEC;
+    cout << "Operation: _" << insert << "_ time = [ " << duration << " sec ]" << endl;
 
 
-
-    sqlite3_stmt * selectState;
-
-
-    if(sqlite3_exec(db, select, 0, &selectState, &err)) cout << "error:" << err << endl;
-
-    while(sqlite3_step(selectState) == SQLITE_ROW) {
-        int id = sqlite3_column_int(selectState, 0);
-        char* fio = (char *) sqlite3_column_text(selectState, 1);
-        cout << "id: [" << id << "]___FIO: [" << fio << "]" << endl;
-    }
+    const char* data = "Callback function called";
+    start = clock();
+    if(sqlite3_exec(db, select, callback, (void *) data, &err)) cout << "error:" << err << endl;
+    duration = (clock() - start) / (double) CLOCKS_PER_SEC;
+    cout << "Operation: _" << select << "_ time = [ " << duration << " sec ]" << endl;
 
     sqlite3_free(err);
     sqlite3_close(db);
