@@ -1,0 +1,160 @@
+ONLY BEGIN
+
+Database active!
+Create time: [ 0.0020130000 sec ]
+Insert time: [ 0.0000858600 sec ]
+Select time: [ 0.0005710000 sec ]
+-----
+Database active!
+Create time: [ 0.0019590000 sec ]
+Insert time: [ 0.0000853700 sec ]
+Select time: [ 0.0005590000 sec ]
+-----
+Database active!
+Create time: [ 0.0023090000 sec ]
+Insert time: [ 0.0000938300 sec ]
+Select time: [ 0.0005710000 sec ]
+-----
+Database active!
+Create time: [ 0.0022870000 sec ]
+Insert time: [ 0.0000997000 sec ]
+Select time: [ 0.0006620000 sec ]
+-----
+Database active!
+Create time: [ 0.0023020000 sec ]
+Insert time: [ 0.0000999400 sec ]
+Select time: [ 0.0006460000 sec ]
+-----
+Database active!
+Create time: [ 0.0022840000 sec ]
+Insert time: [ 0.0001002000 sec ]
+Select time: [ 0.0006740000 sec ]
+-----
+Database active!
+Create time: [ 0.0022460000 sec ]
+Insert time: [ 0.0001007800 sec ]
+Select time: [ 0.0006680000 sec ]
+-----
+Database active!
+Create time: [ 0.0023780000 sec ]
+Insert time: [ 0.0000999200 sec ]
+Select time: [ 0.0006970000 sec ]
+-----
+Database active!
+Create time: [ 0.0022920000 sec ]
+Insert time: [ 0.0001002500 sec ]
+Select time: [ 0.0005210000 sec ]
+-----
+Database active!
+Create time: [ 0.0022450000 sec ]
+Insert time: [ 0.0000940300 sec ]
+Select time: [ 0.0005830000 sec ]
+-----
+
+BEGIN + PRGAMA
+
+Database active!
+Create time: [ 0.0014840000 sec ]
+Insert time: [ 0.0000994400 sec ]
+Select time: [ 0.0007140000 sec ]
+-----
+Database active!
+Create time: [ 0.0014360000 sec ]
+Insert time: [ 0.0000991500 sec ]
+Select time: [ 0.0006590000 sec ]
+-----
+Database active!
+Create time: [ 0.0015940000 sec ]
+Insert time: [ 0.0000992100 sec ]
+Select time: [ 0.0006600000 sec ]
+-----
+Database active!
+Create time: [ 0.0015130000 sec ]
+Insert time: [ 0.0001002400 sec ]
+Select time: [ 0.0006990000 sec ]
+-----
+Database active!
+Create time: [ 0.0014970000 sec ]
+Insert time: [ 0.0000995500 sec ]
+Select time: [ 0.0006410000 sec ]
+-----
+Database active!
+Create time: [ 0.0012420000 sec ]
+Insert time: [ 0.0000851200 sec ]
+Select time: [ 0.0005670000 sec ]
+-----
+Database active!
+Create time: [ 0.0014960000 sec ]
+Insert time: [ 0.0000993300 sec ]
+Select time: [ 0.0006550000 sec ]
+-----
+Database active!
+Create time: [ 0.0015440000 sec ]
+Insert time: [ 0.0000995100 sec ]
+Select time: [ 0.0006580000 sec ]
+-----
+Database active!
+Create time: [ 0.0015080000 sec ]
+Insert time: [ 0.0000998800 sec ]
+Select time: [ 0.0006480000 sec ]
+-----
+Database active!
+Create time: [ 0.0014900000 sec ]
+Insert time: [ 0.0000955800 sec ]
+Select time: [ 0.0005780000 sec ]
+-----
+
+
+PREPARE
+
+
+Database active!
+Create time: [ 0.0016070000 sec ]
+Insert time: [ 0.0000279500 sec ]
+Select time: [ 0.0006520000 sec ]
+-----
+Database active!
+Create time: [ 0.0014480000 sec ]
+Insert time: [ 0.0000278500 sec ]
+Select time: [ 0.0006560000 sec ]
+-----
+Database active!
+Create time: [ 0.0015980000 sec ]
+Insert time: [ 0.0000283100 sec ]
+Select time: [ 0.0006490000 sec ]
+-----
+Database active!
+Create time: [ 0.0014880000 sec ]
+Insert time: [ 0.0000282100 sec ]
+Select time: [ 0.0006450000 sec ]
+-----
+Database active!
+Create time: [ 0.0014900000 sec ]
+Insert time: [ 0.0000278900 sec ]
+Select time: [ 0.0006460000 sec ]
+-----
+Database active!
+Create time: [ 0.0014900000 sec ]
+Insert time: [ 0.0000279400 sec ]
+Select time: [ 0.0006450000 sec ]
+-----
+Database active!
+Create time: [ 0.0014920000 sec ]
+Insert time: [ 0.0000280400 sec ]
+Select time: [ 0.0007590000 sec ]
+-----
+Database active!
+Create time: [ 0.0015240000 sec ]
+Insert time: [ 0.0000281300 sec ]
+Select time: [ 0.0006500000 sec ]
+-----
+Database active!
+Create time: [ 0.0015960000 sec ]
+Insert time: [ 0.0000287500 sec ]
+Select time: [ 0.0006950000 sec ]
+-----
+Database active!
+Create time: [ 0.0015970000 sec ]
+Insert time: [ 0.0000280800 sec ]
+Select time: [ 0.0006450000 sec ]
+-----

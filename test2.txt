@@ -1,0 +1,50 @@
+Database active!
+Create time: [ 0.0021440000 sec ]
+Insert time: [ 0.0000299200 sec ]
+Select time: [ 0.0007280000 sec ]
+-----
+Database active!
+Create time: [ 0.0001220000 sec ]
+Insert time: [ 0.0000341800 sec ]
+Select time: [ 0.0012410000 sec ]
+-----
+Database active!
+Create time: [ 0.0001300000 sec ]
+Insert time: [ 0.0000341100 sec ]
+Select time: [ 0.0017270000 sec ]
+-----
+Database active!
+Create time: [ 0.0001350000 sec ]
+Insert time: [ 0.0000335200 sec ]
+Select time: [ 0.0023380000 sec ]
+-----
+Database active!
+Create time: [ 0.0001270000 sec ]
+Insert time: [ 0.0000333900 sec ]
+Select time: [ 0.0028310000 sec ]
+-----
+Database active!
+Create time: [ 0.0001240000 sec ]
+Insert time: [ 0.0000355700 sec ]
+Select time: [ 0.0033370000 sec ]
+-----
+Database active!
+Create time: [ 0.0001260000 sec ]
+Insert time: [ 0.0000354200 sec ]
+Select time: [ 0.0038360000 sec ]
+-----
+Database active!
+Create time: [ 0.0001330000 sec ]
+Insert time: [ 0.0000355100 sec ]
+Select time: [ 0.0044230000 sec ]
+-----
+Database active!
+Create time: [ 0.0001280000 sec ]
+Insert time: [ 0.0000354600 sec ]
+Select time: [ 0.0048150000 sec ]
+-----
+Database active!
+Create time: [ 0.0001240000 sec ]
+Insert time: [ 0.0000344800 sec ]
+Select time: [ 0.0053380000 sec ]
+-----
