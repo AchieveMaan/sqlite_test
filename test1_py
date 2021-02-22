@@ -1,0 +1,105 @@
+100
+
+Database is active!
+Create time: [ 0.0161640644 sec ]
+Insert time: [ 0.0124963236 sec ]
+Select time: [ 0.0004003048 sec ]
+-----
+Database is active!
+Create time: [ 0.0007965565 sec ]
+Insert time: [ 0.0131805587 sec ]
+Select time: [ 0.0003635883 sec ]
+-----
+Database is active!
+Create time: [ 0.0011417866 sec ]
+Insert time: [ 0.0135010028 sec ]
+Select time: [ 0.0003547668 sec ]
+-----
+Database is active!
+Create time: [ 0.0010597706 sec ]
+Insert time: [ 0.0134960198 sec ]
+Select time: [ 0.0003712177 sec ]
+-----
+Database is active!
+Create time: [ 0.0007996559 sec ]
+Insert time: [ 0.0136450028 sec ]
+Select time: [ 0.0004236698 sec ]
+-----
+Database is active!
+Create time: [ 0.0010716915 sec ]
+Insert time: [ 0.0133703399 sec ]
+Select time: [ 0.0003793240 sec ]
+-----
+Database is active!
+Create time: [ 0.0008065701 sec ]
+Insert time: [ 0.0142414951 sec ]
+Select time: [ 0.0004515648 sec ]
+-----
+Database is active!
+Create time: [ 0.0009815693 sec ]
+Insert time: [ 0.0141329646 sec ]
+Select time: [ 0.0004343987 sec ]
+-----
+Database is active!
+Create time: [ 0.0008347034 sec ]
+Insert time: [ 0.0138629985 sec ]
+Select time: [ 0.0003974438 sec ]
+-----
+Database is active!
+Create time: [ 0.0009629726 sec ]
+Insert time: [ 0.0139404082 sec ]
+Select time: [ 0.0003459454 sec ]
+-----
+
+1000
+
+Database is active!
+Create time: [ 0.0010485649 sec ]
+Insert time: [ 0.0176579189 sec ]
+Select time: [ 0.0004568100 sec ]
+-----
+Database is active!
+Create time: [ 0.0008120537 sec ]
+Insert time: [ 0.0147850144 sec ]
+Select time: [ 0.0004255772 sec ]
+-----
+Database is active!
+Create time: [ 0.0008141994 sec ]
+Insert time: [ 0.0149621496 sec ]
+Select time: [ 0.0004427433 sec ]
+-----
+Database is active!
+Create time: [ 0.0007760525 sec ]
+Insert time: [ 0.0148135412 sec ]
+Select time: [ 0.0003716946 sec ]
+-----
+Database is active!
+Create time: [ 0.0007812977 sec ]
+Insert time: [ 0.0143698509 sec ]
+Select time: [ 0.0004203320 sec ]
+-----
+Database is active!
+Create time: [ 0.0009961128 sec ]
+Insert time: [ 0.0172378991 sec ]
+Select time: [ 0.0004456043 sec ]
+-----
+Database is active!
+Create time: [ 0.0007100105 sec ]
+Insert time: [ 0.0143836455 sec ]
+Select time: [ 0.0004105568 sec ]
+-----
+Database is active!
+Create time: [ 0.0007896423 sec ]
+Insert time: [ 0.0168059304 sec ]
+Select time: [ 0.0005304813 sec ]
+-----
+Database is active!
+Create time: [ 0.0007321835 sec ]
+Insert time: [ 0.0144908469 sec ]
+Select time: [ 0.0004320145 sec ]
+-----
+Database is active!
+Create time: [ 0.0007777214 sec ]
+Insert time: [ 0.0149202349 sec ]
+Select time: [ 0.0004048347 sec ]
+-----

@@ -1,0 +1,87 @@
+100
+
+Database active!
+Create time = [ 0.002226000000000 sec ]
+Insert time = [ 0.000154100000000 sec ]
+Select time = [ 0.000662000000000 sec ]
+-----Database active!
+Create time = [ 0.002318000000000 sec ]
+Insert time = [ 0.000142680000000 sec ]
+Select time = [ 0.000603000000000 sec ]
+-----Database active!
+Create time = [ 0.002358000000000 sec ]
+Insert time = [ 0.000151860000000 sec ]
+Select time = [ 0.000659000000000 sec ]
+-----Database active!
+Create time = [ 0.002270000000000 sec ]
+Insert time = [ 0.000140110000000 sec ]
+Select time = [ 0.000634000000000 sec ]
+-----Database active!
+Create time = [ 0.002252000000000 sec ]
+Insert time = [ 0.000152840000000 sec ]
+Select time = [ 0.000655000000000 sec ]
+-----Database active!
+Create time = [ 0.002175000000000 sec ]
+Insert time = [ 0.000152440000000 sec ]
+Select time = [ 0.000662000000000 sec ]
+-----Database active!
+Create time = [ 0.002258000000000 sec ]
+Insert time = [ 0.000153400000000 sec ]
+Select time = [ 0.000692000000000 sec ]
+-----Database active!
+Create time = [ 0.002265000000000 sec ]
+Insert time = [ 0.000152660000000 sec ]
+Select time = [ 0.000665000000000 sec ]
+-----Database active!
+Create time = [ 0.002243000000000 sec ]
+Insert time = [ 0.000152400000000 sec ]
+Select time = [ 0.000662000000000 sec ]
+-----Database active!
+Create time = [ 0.002302000000000 sec ]
+Insert time = [ 0.000151760000000 sec ]
+Select time = [ 0.000650000000000 sec ]
+-----
+
+1000
+
+Database active!
+Create time = [ 0.002174000000000 sec ]
+Insert time = [ 0.000115431000000 sec ]
+Select time = [ 0.002615000000000 sec ]
+-----Database active!
+Create time = [ 0.002315000000000 sec ]
+Insert time = [ 0.000121244000000 sec ]
+Select time = [ 0.002586000000000 sec ]
+-----Database active!
+Create time = [ 0.002260000000000 sec ]
+Insert time = [ 0.000118013000000 sec ]
+Select time = [ 0.003907000000000 sec ]
+-----Database active!
+Create time = [ 0.002253000000000 sec ]
+Insert time = [ 0.000109146000000 sec ]
+Select time = [ 0.002600000000000 sec ]
+-----Database active!
+Create time = [ 0.002151000000000 sec ]
+Insert time = [ 0.000121439000000 sec ]
+Select time = [ 0.002627000000000 sec ]
+-----Database active!
+Create time = [ 0.002265000000000 sec ]
+Insert time = [ 0.000096298000000 sec ]
+Select time = [ 0.002621000000000 sec ]
+-----Database active!
+Create time = [ 0.002175000000000 sec ]
+Insert time = [ 0.000123957000000 sec ]
+Select time = [ 0.002609000000000 sec ]
+-----Database active!
+Create time = [ 0.002254000000000 sec ]
+Insert time = [ 0.000118799000000 sec ]
+Select time = [ 0.002613000000000 sec ]
+-----Database active!
+Create time = [ 0.002260000000000 sec ]
+Insert time = [ 0.000104095000000 sec ]
+Select time = [ 0.002620000000000 sec ]
+-----Database active!
+Create time = [ 0.002267000000000 sec ]
+Insert time = [ 0.000114802000000 sec ]
+Select time = [ 0.002615000000000 sec ]
+-----
