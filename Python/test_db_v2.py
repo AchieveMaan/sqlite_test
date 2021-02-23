@@ -6,7 +6,7 @@ from sqlite3 import Error
 def main():
 
     try:
-        con = sqlite3.connect(":memory:")
+        con = sqlite3.connect("py.db")
         print("Database is active!")
         return con
     except Error:
@@ -26,7 +26,7 @@ for i in range(0, 100):
     cursor.execute("INSERT INTO students(fio) VALUES (\"SENYA\")")
 con.commit()
 duration = (time.time() - start_time)
-print("Insert time: [ %.10f sec ]" % (duration / 100))
+print("Insert time: [ %.10f sec ]" % (duration))
 
 start_time = time.time()
 #for row in 
