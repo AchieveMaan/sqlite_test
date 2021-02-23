@@ -18,7 +18,7 @@ static int callback(void *data, int argc, char**argv, char **azColName){
 
 int main() {
     sqlite3* db;
-    int res = sqlite3_open(":memory:", &db);
+    int res = sqlite3_open("cpp.db", &db);
 
 // "test_cpp.db", &db);
     if(res)
@@ -39,10 +39,10 @@ int main() {
     clock_t start;
     double duration;
 
-//    sqlite3_exec(db, "PRAGMA synchronous = OFF", 0, 0, &err);
-//    sqlite3_exec(db, "PRAGMA journal_mode = MEMORY", 0, 0, &err);
-//    sqlite3_exec(db, "PRAGMA temp_store = MEMORY", 0, 0, &err);
-//    sqlite3_exec(db, "PRAGMA page_size = 8192", 0, 0, &err);
+    sqlite3_exec(db, "PRAGMA synchronous = OFF", 0, 0, &err);
+    sqlite3_exec(db, "PRAGMA journal_mode = MEMORY", 0, 0, &err);
+    sqlite3_exec(db, "PRAGMA temp_store = MEMORY", 0, 0, &err);
+    sqlite3_exec(db, "PRAGMA page_size = 8192", 0, 0, &err);
 
 
 //    sqlite3_exec(db, "BEGIN", 0, 0, 0);
@@ -54,9 +54,10 @@ int main() {
 
 
     sqlite3_stmt *pStmt;
-    sqlite3_exec(db, "BEGIN TRANSACTION", 0, 0, 0);
-    start = clock();
     char name[] = "SENYA";
+    
+    start = clock();
+    sqlite3_exec(db, "BEGIN TRANSACTION", 0, 0, 0);
     sqlite3_prepare(db, "INSERT INTO students(fio) VALUES (?)", -1, &pStmt, 0);
     for (int i = 0; i < 100; i++) {
 //        sqlite3_exec(db, "INSERT INTO students(fio) VALUES (\"SENYA\")", 0, 0, &err);
@@ -68,7 +69,7 @@ int main() {
     clock_t end = clock();
     duration = (end - start) / (double) CLOCKS_PER_SEC;
     sqlite3_exec(db, "COMMIT", 0, 0, 0);
-    cout << "Insert time: [ " << duration / 100 << " sec ]" << endl;
+    cout << "Insert time: [ " << duration << " sec ]" << endl;
 
     const char* data = "Callback function called";
     start = clock();
